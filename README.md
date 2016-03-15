@@ -5,7 +5,7 @@ The team consists of 3 graduate students:
 
 1. Izhar Shaikh (https://github.com/its-izhar)
 
-2. Salim Chouki (https://github.com/Salimchaouqi)
+2. Salim Chaouqi (https://github.com/Salimchaouqi)
 
 3. Kannabiran Maheswaran (https://github.com/KannaNoob)
 
