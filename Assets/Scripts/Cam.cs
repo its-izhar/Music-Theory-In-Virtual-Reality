@@ -15,7 +15,7 @@ public class Cam : MonoBehaviour
 {
 	private const int RIGHT_ANGLE = 90;
 
-	public AudioSource a; 
+	//public AudioSource a; 
 
 	// This variable determinates if the player will move or not 
 	public bool isWalking = false;
@@ -59,13 +59,13 @@ public class Cam : MonoBehaviour
 		if (walkWhenTriggered && !walkWhenLookDown && !isWalking && Cardboard.SDK.Triggered) 
 		{
 			isWalking = true;
-			a.Play ();
+			//a.Play ();
 
 		} 
 		else if (walkWhenTriggered && !walkWhenLookDown && isWalking && Cardboard.SDK.Triggered) 
 		{
 			isWalking = false;
-			a.Stop ();
+			//a.Stop ();
 		}
 
 		// Walk when player looks below the threshold angle 
@@ -74,14 +74,14 @@ public class Cam : MonoBehaviour
 			head.transform.eulerAngles.x <= RIGHT_ANGLE) 
 		{
 			isWalking = true;
-			a.Play ();
+			//a.Play ();
 		} 
 		else if (walkWhenLookDown && !walkWhenTriggered && isWalking && 
 			(head.transform.eulerAngles.x <= thresholdAngle ||
 				head.transform.eulerAngles.x >= RIGHT_ANGLE)) 
 		{
 			isWalking = false;
-			a.Stop ();
+			//a.Stop ();
 		}
 
 		// Walk when the Cardboard trigger is used and the player looks down below the threshold angle
@@ -91,7 +91,7 @@ public class Cam : MonoBehaviour
 			head.transform.eulerAngles.x <= RIGHT_ANGLE) 
 		{
 			isWalking = true;
-			a.Play ();
+			//a.Play ();
 		} 
 		else if (walkWhenLookDown && walkWhenTriggered && isWalking && 
 			head.transform.eulerAngles.x >= thresholdAngle &&
@@ -99,7 +99,7 @@ public class Cam : MonoBehaviour
 				head.transform.eulerAngles.x >= RIGHT_ANGLE)) 
 		{
 			isWalking = false;
-			a.Stop ();
+			//a.Stop ();
 		}
 
 		if (isWalking) 
@@ -115,7 +115,7 @@ public class Cam : MonoBehaviour
 
 		if (isWalking == false) 
 		{
-			a.Stop ();
+			//a.Stop ();
 		}
 
 		if(freezeYPosition)
