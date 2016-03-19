@@ -4,38 +4,80 @@ using System.Collections;
 
 public class Song_Swap : MonoBehaviour, IPointerClickHandler
 {
-    private GameObject[] sources;
-    
+
+    public AudioSource clip1_guitar, clip1_xguitar, clip1_bass, clip1_oh, clip1_snare, clip1_kick, clip1_vocal;
+    public AudioSource clip2_guitar, clip2_xguitar, clip2_bass, clip2_oh, clip2_snare, clip2_kick, clip2_vocal;
+
     public bool swap;  
-    public AudioClip otherclip;
-    public AudioClip initialclip;
+    public AudioClip otherclip_guitar, otherclip_xguitar, otherclip_bass, otherclip_oh, otherclip_snare, otherclip_kick, otherclip_vocal;
+    public AudioClip initialclip_guitar, initialclip_xguitar, initialclip_bass, initialclip_oh, initialclip_snare, initialclip_kick, initialclip_vocal;
     // Use this for initialization
-    void Start () {
-        
+    void Awake()
+    {
+
+        clip1_bass.clip = initialclip_bass;
+        clip1_guitar.clip = initialclip_guitar;
+        clip1_kick.clip = initialclip_kick;
+        clip1_oh.clip = initialclip_oh;
+        clip1_snare.clip = initialclip_snare;
+        clip1_vocal.clip = initialclip_vocal;
+        clip1_xguitar.clip = initialclip_xguitar;
+
+        clip2_bass.clip = otherclip_bass;
+        clip2_guitar.clip = otherclip_guitar;
+        clip2_kick.clip = otherclip_kick;
+        clip2_oh.clip = otherclip_oh;
+        clip2_snare.clip = otherclip_snare;
+        clip2_vocal.clip = otherclip_vocal;
+        clip2_xguitar.clip = otherclip_xguitar;
+
+
+
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        sources = GameObject.FindGameObjectsWithTag("Song");
 
+        GameObject Temp;
 
         if (swap)
         {
             swap = false;
-            foreach (GameObject source in sources)
-            {
-                AudioSource temp = source.GetComponent<AudioSource>();
-                temp.clip = otherclip; temp.Play();
-            }
+            clip1_bass.Stop();
+            clip1_guitar.Stop();
+            clip1_xguitar.Stop();
+            clip1_snare.Stop();
+            clip1_vocal.Stop();
+            clip1_oh.Stop();
+            clip1_kick.Stop();
+
+            clip2_bass.Play();
+            clip2_guitar.Play();
+            clip2_xguitar.Play ();
+            clip2_snare.Play();
+            clip2_vocal.Play();
+            clip2_oh.Play();
+            clip2_kick.Play();
         }
         else {
             swap = true;
-                foreach (GameObject source in sources)
-                {
-                    AudioSource temp = source.GetComponent<AudioSource>();
-                    temp.clip = initialclip; temp.Play();
-                }
-            }
+            clip2_bass.Stop();
+            clip2_guitar.Stop();
+            clip2_xguitar.Stop();
+            clip2_snare.Stop();
+            clip2_vocal.Stop();
+            clip2_oh.Stop();
+            clip2_kick.Stop();
+
+            clip1_bass.Play();
+            clip1_guitar.Play();
+            clip1_xguitar.Play();
+            clip1_snare.Play();
+            clip1_vocal.Play();
+            clip1_oh.Play();
+            clip1_kick.Play();
+
+        }
     }
 	// Update is called once per frame
 	void Update () {
