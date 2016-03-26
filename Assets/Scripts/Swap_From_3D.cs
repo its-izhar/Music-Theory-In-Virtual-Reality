@@ -8,9 +8,13 @@ public class Swap_From_3D : MonoBehaviour, IPointerClickHandler
     private GameObject[] zones;
     public bool is3d = true;
 
+    public GameObject player;
+    public Transform Player;
     
 	// Use this for initialization
 	void Start () {
+
+        Player = player.GetComponent<Transform>();
         zones = GameObject.FindGameObjectsWithTag("Zones");
 
     }
@@ -48,6 +52,10 @@ public class Swap_From_3D : MonoBehaviour, IPointerClickHandler
 
         // Update is called once per frame
         void Update () {
-	
-	}
+
+        if(is3d == false)
+            Player.position = new Vector3(player.transform.position.x, 26.5f , player.transform.position.z);
+
+
+    }
 }
