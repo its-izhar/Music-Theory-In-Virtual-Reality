@@ -1,10 +1,40 @@
 fileFormatVersion: 2
 guid: 7c74a3cfbc9a83a4fb52a95f1246fc60
-timeCreated: 1458418596
+timeCreated: 1459022113
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - clip1_guitar: {instanceID: 0}
+  - clip1_xguitar: {instanceID: 0}
+  - clip1_bass: {instanceID: 0}
+  - clip1_oh: {instanceID: 0}
+  - clip1_snare: {instanceID: 0}
+  - clip1_kick: {instanceID: 0}
+  - clip1_vocal: {instanceID: 0}
+  - clip2_guitar: {instanceID: 0}
+  - clip2_xguitar: {instanceID: 0}
+  - clip2_bass: {instanceID: 0}
+  - clip2_oh: {instanceID: 0}
+  - clip2_snare: {instanceID: 0}
+  - clip2_kick: {instanceID: 0}
+  - clip2_vocal: {instanceID: 0}
+  - otherclip_guitar: {fileID: 8300000, guid: 4b726759ba3a000408042e473746da44, type: 3}
+  - otherclip_xguitar: {fileID: 8300000, guid: 21bc15798a97945429b391e830c0479b, type: 3}
+  - otherclip_bass: {fileID: 8300000, guid: 7d1f8206a322dcd49893fd5484f07296, type: 3}
+  - otherclip_oh: {fileID: 8300000, guid: 521d5fbab2752b94fa4e73f6a36dc113, type: 3}
+  - otherclip_snare: {fileID: 8300000, guid: 95ac48a2904d05e418ced6e4a028587a, type: 3}
+  - otherclip_kick: {fileID: 8300000, guid: a3de2cdf0ef68044ea111f1602cd4c1f, type: 3}
+  - otherclip_vocal: {fileID: 8300000, guid: f0973c76d7a8afb448d9bbdaa83a2e9e, type: 3}
+  - initialclip_guitar: {fileID: 8300000, guid: b5fb5747d1eed4342923f5327399604d,
+      type: 3}
+  - initialclip_xguitar: {fileID: 8300000, guid: 2909a3f0f1b300b4d81cc3612f36b0cf,
+      type: 3}
+  - initialclip_bass: {fileID: 8300000, guid: 7059b535501c39440b27b488a462a9c3, type: 3}
+  - initialclip_oh: {fileID: 8300000, guid: 7c6af4de7054fb74abd75a1de05dc25e, type: 3}
+  - initialclip_snare: {fileID: 8300000, guid: 1a2176db2880d5b4596fbd7bfc8f5c00, type: 3}
+  - initialclip_kick: {fileID: 8300000, guid: b7b4534db4fad974b99a5df2913a9d22, type: 3}
+  - initialclip_vocal: {fileID: 8300000, guid: 1a2176db2880d5b4596fbd7bfc8f5c00, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
