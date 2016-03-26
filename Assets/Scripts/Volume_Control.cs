@@ -8,11 +8,13 @@ public class Volume_Control : MonoBehaviour, IPointerClickHandler
     
     public AudioSource source,source2;
     public int assign;
+    Color temp;
     Song_Swap song_swap;
 
     // Use this for initialization
     void Awake()
     {
+        temp = GetComponent<SpriteRenderer>().material.color;
         GameObject Temp;
         switch (assign)
         {
@@ -65,16 +67,31 @@ public class Volume_Control : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        
-            if (source2.mute)
-                source2.mute = false;
-            else
-                source2.mute = true;
 
-            if (source.mute)
-                source.mute = false;
-            else
-                source.mute = true;
+        if (source2.mute)
+        {
+            source2.mute = false;
+            GetComponent<SpriteRenderer>().material.color = temp;
+
+        }
+        else
+        {
+            source2.mute = true;
+            GetComponent<SpriteRenderer>().material.color = new Color(0.5f,0.5f,0.5f, 1.0f);
+        }
+
+
+        if (source.mute)
+        {
+            source.mute = false;
+            GetComponent<SpriteRenderer>().material.color = temp;
+        }
+
+        else
+        {
+            source.mute = true;
+            GetComponent<SpriteRenderer>().material.color = new Color(0.5f, 0.5f, 0.5f, 1.0f);
+        }
 
         
     }
