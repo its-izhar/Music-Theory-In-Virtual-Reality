@@ -1,0 +1,817 @@
+fileFormatVersion: 2
+guid: b67fadd9bad143c47953e39ecd3b1035
+timeCreated: 1459109552
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f01000050010000510100005201000053010000540100005501000056010000
+  assetHash:
+    serializedVersion: 2
+    Hash: 3699b6a27f623ba1a470727008e5552b
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 1.5153099, y: 0.65282726, z: 0.929069}
+      lookAt: {x: 0.040987175, y: 0.4037942, z: 0.23736307}
+      up: {x: -0.13684937, y: 0.98850894, z: -0.06420542}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1957 Fender Stratocaster
+    100002: 3 way tip
+    100004: backplate
+    100006: bridge plate
+    100008: Crestwood#1
+    100010: dot
+    100012: dot 1
+    100014: dot 10
+    100016: dot 11
+    100018: dot 12
+    100020: dot 13
+    100022: dot 14
+    100024: dot 15
+    100026: dot 16
+    100028: dot 17
+    100030: dot 18
+    100032: dot 19
+    100034: dot 2
+    100036: dot 3
+    100038: dot 4
+    100040: dot 5
+    100042: dot 6
+    100044: dot 7
+    100046: dot 8
+    100048: dot 9
+    100050: //RootNode
+    100052: fretwire
+    100054: fretwire 1
+    100056: fretwire 10
+    100058: fretwire 11
+    100060: fretwire 12
+    100062: fretwire 13
+    100064: fretwire 14
+    100066: fretwire 15
+    100068: fretwire 16
+    100070: fretwire 17
+    100072: fretwire 18
+    100074: fretwire 19
+    100076: fretwire 2
+    100078: fretwire 20
+    100080: fretwire 3
+    100082: fretwire 4
+    100084: fretwire 5
+    100086: fretwire 6
+    100088: fretwire 7
+    100090: fretwire 8
+    100092: fretwire 9
+    100094: Group 11
+    100096: Group 271
+    100098: Group 275
+    100100: Group 279
+    100102: Group 283
+    100104: Group 287
+    100106: Group 291
+    100108: Group 295
+    100110: Group 299
+    100112: Group 3
+    100114: Group 303
+    100116: Group 307
+    100118: Group 311
+    100120: Group 315
+    100122: Group 5
+    100124: Group 7
+    100126: Group 9
+    100128: grub screw
+    100130: grub screw 1
+    100132: grub screw 10
+    100134: grub screw 11
+    100136: grub screw 12
+    100138: grub screw 13
+    100140: grub screw 14
+    100142: grub screw 15
+    100144: grub screw 16
+    100146: grub screw 17
+    100148: grub screw 2
+    100150: grub screw 3
+    100152: grub screw 4
+    100154: grub screw 5
+    100156: grub screw 6
+    100158: grub screw 7
+    100160: grub screw 8
+    100162: grub screw 9
+    100164: Jack
+    100166: kluson screw
+    100168: kluson screw 1
+    100170: kluson screw 10
+    100172: kluson screw 11
+    100174: kluson screw 12
+    100176: kluson screw 13
+    100178: kluson screw 14
+    100180: kluson screw 15
+    100182: kluson screw 16
+    100184: kluson screw 17
+    100186: kluson screw 18
+    100188: kluson screw 19
+    100190: kluson screw 2
+    100192: kluson screw 20
+    100194: kluson screw 21
+    100196: kluson screw 22
+    100198: kluson screw 23
+    100200: kluson screw 24
+    100202: kluson screw 25
+    100204: kluson screw 26
+    100206: kluson screw 27
+    100208: kluson screw 28
+    100210: kluson screw 29
+    100212: kluson screw 3
+    100214: kluson screw 30
+    100216: kluson screw 31
+    100218: kluson screw 32
+    100220: kluson screw 33
+    100222: kluson screw 34
+    100224: kluson screw 35
+    100226: kluson screw 36
+    100228: kluson screw 37
+    100230: kluson screw 38
+    100232: kluson screw 39
+    100234: kluson screw 4
+    100236: kluson screw 40
+    100238: kluson screw 41
+    100240: kluson screw 42
+    100242: kluson screw 43
+    100244: kluson screw 44
+    100246: kluson screw 45
+    100248: kluson screw 46
+    100250: kluson screw 47
+    100252: kluson screw 48
+    100254: kluson screw 49
+    100256: kluson screw 5
+    100258: kluson screw 6
+    100260: kluson screw 7
+    100262: kluson screw 8
+    100264: kluson screw 9
+    100266: kluson-left
+    100268: kluson-middle
+    100270: kluson-middle 1
+    100272: kluson-middle 2
+    100274: kluson-middle 3
+    100276: kluson-right
+    100278: knob#1
+    100280: knob#1 1
+    100282: knob#1 2
+    100284: nut
+    100286: Pat.Pend Saddle
+    100288: Pat.Pend Saddle 1
+    100290: Pat.Pend Saddle 2
+    100292: Pat.Pend Saddle 3
+    100294: Pat.Pend Saddle 4
+    100296: Pat.Pend Saddle 5
+    100298: Pickgurad
+    100300: pickup
+    100302: pickup 1
+    100304: pickup 2
+    100306: plug
+    100308: spring
+    100310: spring 1
+    100312: spring 2
+    100314: spring 3
+    100316: spring 4
+    100318: spring 5
+    100320: strap lock
+    100322: strap lock 1
+    100324: string tree
+    100326: Tone
+    100328: Tone 1
+    100330: tuner - top
+    100332: tuner - top 1
+    100334: tuner - top 2
+    100336: tuner - top 3
+    100338: tuner - top 4
+    100340: tuner - top 5
+    100342: Volume
+    400000: 1957 Fender Stratocaster
+    400002: 3 way tip
+    400004: backplate
+    400006: bridge plate
+    400008: Crestwood#1
+    400010: dot
+    400012: dot 1
+    400014: dot 10
+    400016: dot 11
+    400018: dot 12
+    400020: dot 13
+    400022: dot 14
+    400024: dot 15
+    400026: dot 16
+    400028: dot 17
+    400030: dot 18
+    400032: dot 19
+    400034: dot 2
+    400036: dot 3
+    400038: dot 4
+    400040: dot 5
+    400042: dot 6
+    400044: dot 7
+    400046: dot 8
+    400048: dot 9
+    400050: //RootNode
+    400052: fretwire
+    400054: fretwire 1
+    400056: fretwire 10
+    400058: fretwire 11
+    400060: fretwire 12
+    400062: fretwire 13
+    400064: fretwire 14
+    400066: fretwire 15
+    400068: fretwire 16
+    400070: fretwire 17
+    400072: fretwire 18
+    400074: fretwire 19
+    400076: fretwire 2
+    400078: fretwire 20
+    400080: fretwire 3
+    400082: fretwire 4
+    400084: fretwire 5
+    400086: fretwire 6
+    400088: fretwire 7
+    400090: fretwire 8
+    400092: fretwire 9
+    400094: Group 11
+    400096: Group 271
+    400098: Group 275
+    400100: Group 279
+    400102: Group 283
+    400104: Group 287
+    400106: Group 291
+    400108: Group 295
+    400110: Group 299
+    400112: Group 3
+    400114: Group 303
+    400116: Group 307
+    400118: Group 311
+    400120: Group 315
+    400122: Group 5
+    400124: Group 7
+    400126: Group 9
+    400128: grub screw
+    400130: grub screw 1
+    400132: grub screw 10
+    400134: grub screw 11
+    400136: grub screw 12
+    400138: grub screw 13
+    400140: grub screw 14
+    400142: grub screw 15
+    400144: grub screw 16
+    400146: grub screw 17
+    400148: grub screw 2
+    400150: grub screw 3
+    400152: grub screw 4
+    400154: grub screw 5
+    400156: grub screw 6
+    400158: grub screw 7
+    400160: grub screw 8
+    400162: grub screw 9
+    400164: Jack
+    400166: kluson screw
+    400168: kluson screw 1
+    400170: kluson screw 10
+    400172: kluson screw 11
+    400174: kluson screw 12
+    400176: kluson screw 13
+    400178: kluson screw 14
+    400180: kluson screw 15
+    400182: kluson screw 16
+    400184: kluson screw 17
+    400186: kluson screw 18
+    400188: kluson screw 19
+    400190: kluson screw 2
+    400192: kluson screw 20
+    400194: kluson screw 21
+    400196: kluson screw 22
+    400198: kluson screw 23
+    400200: kluson screw 24
+    400202: kluson screw 25
+    400204: kluson screw 26
+    400206: kluson screw 27
+    400208: kluson screw 28
+    400210: kluson screw 29
+    400212: kluson screw 3
+    400214: kluson screw 30
+    400216: kluson screw 31
+    400218: kluson screw 32
+    400220: kluson screw 33
+    400222: kluson screw 34
+    400224: kluson screw 35
+    400226: kluson screw 36
+    400228: kluson screw 37
+    400230: kluson screw 38
+    400232: kluson screw 39
+    400234: kluson screw 4
+    400236: kluson screw 40
+    400238: kluson screw 41
+    400240: kluson screw 42
+    400242: kluson screw 43
+    400244: kluson screw 44
+    400246: kluson screw 45
+    400248: kluson screw 46
+    400250: kluson screw 47
+    400252: kluson screw 48
+    400254: kluson screw 49
+    400256: kluson screw 5
+    400258: kluson screw 6
+    400260: kluson screw 7
+    400262: kluson screw 8
+    400264: kluson screw 9
+    400266: kluson-left
+    400268: kluson-middle
+    400270: kluson-middle 1
+    400272: kluson-middle 2
+    400274: kluson-middle 3
+    400276: kluson-right
+    400278: knob#1
+    400280: knob#1 1
+    400282: knob#1 2
+    400284: nut
+    400286: Pat.Pend Saddle
+    400288: Pat.Pend Saddle 1
+    400290: Pat.Pend Saddle 2
+    400292: Pat.Pend Saddle 3
+    400294: Pat.Pend Saddle 4
+    400296: Pat.Pend Saddle 5
+    400298: Pickgurad
+    400300: pickup
+    400302: pickup 1
+    400304: pickup 2
+    400306: plug
+    400308: spring
+    400310: spring 1
+    400312: spring 2
+    400314: spring 3
+    400316: spring 4
+    400318: spring 5
+    400320: strap lock
+    400322: strap lock 1
+    400324: string tree
+    400326: Tone
+    400328: Tone 1
+    400330: tuner - top
+    400332: tuner - top 1
+    400334: tuner - top 2
+    400336: tuner - top 3
+    400338: tuner - top 4
+    400340: tuner - top 5
+    400342: Volume
+    2300000: 1957 Fender Stratocaster
+    2300002: 3 way tip
+    2300004: backplate
+    2300006: bridge plate
+    2300008: Crestwood#1
+    2300010: dot
+    2300012: dot 1
+    2300014: dot 10
+    2300016: dot 11
+    2300018: dot 12
+    2300020: dot 13
+    2300022: dot 14
+    2300024: dot 15
+    2300026: dot 16
+    2300028: dot 17
+    2300030: dot 18
+    2300032: dot 19
+    2300034: dot 2
+    2300036: dot 3
+    2300038: dot 4
+    2300040: dot 5
+    2300042: dot 6
+    2300044: dot 7
+    2300046: dot 8
+    2300048: dot 9
+    2300050: fretwire
+    2300052: fretwire 1
+    2300054: fretwire 10
+    2300056: fretwire 11
+    2300058: fretwire 12
+    2300060: fretwire 13
+    2300062: fretwire 14
+    2300064: fretwire 15
+    2300066: fretwire 16
+    2300068: fretwire 17
+    2300070: fretwire 18
+    2300072: fretwire 19
+    2300074: fretwire 2
+    2300076: fretwire 20
+    2300078: fretwire 3
+    2300080: fretwire 4
+    2300082: fretwire 5
+    2300084: fretwire 6
+    2300086: fretwire 7
+    2300088: fretwire 8
+    2300090: fretwire 9
+    2300092: Group 11
+    2300094: Group 271
+    2300096: Group 275
+    2300098: Group 279
+    2300100: Group 283
+    2300102: Group 287
+    2300104: Group 291
+    2300106: Group 295
+    2300108: Group 299
+    2300110: Group 3
+    2300112: Group 303
+    2300114: Group 307
+    2300116: Group 311
+    2300118: Group 315
+    2300120: Group 5
+    2300122: Group 7
+    2300124: Group 9
+    2300126: grub screw
+    2300128: grub screw 1
+    2300130: grub screw 10
+    2300132: grub screw 11
+    2300134: grub screw 12
+    2300136: grub screw 13
+    2300138: grub screw 14
+    2300140: grub screw 15
+    2300142: grub screw 16
+    2300144: grub screw 17
+    2300146: grub screw 2
+    2300148: grub screw 3
+    2300150: grub screw 4
+    2300152: grub screw 5
+    2300154: grub screw 6
+    2300156: grub screw 7
+    2300158: grub screw 8
+    2300160: grub screw 9
+    2300162: Jack
+    2300164: kluson screw
+    2300166: kluson screw 1
+    2300168: kluson screw 10
+    2300170: kluson screw 11
+    2300172: kluson screw 12
+    2300174: kluson screw 13
+    2300176: kluson screw 14
+    2300178: kluson screw 15
+    2300180: kluson screw 16
+    2300182: kluson screw 17
+    2300184: kluson screw 18
+    2300186: kluson screw 19
+    2300188: kluson screw 2
+    2300190: kluson screw 20
+    2300192: kluson screw 21
+    2300194: kluson screw 22
+    2300196: kluson screw 23
+    2300198: kluson screw 24
+    2300200: kluson screw 25
+    2300202: kluson screw 26
+    2300204: kluson screw 27
+    2300206: kluson screw 28
+    2300208: kluson screw 29
+    2300210: kluson screw 3
+    2300212: kluson screw 30
+    2300214: kluson screw 31
+    2300216: kluson screw 32
+    2300218: kluson screw 33
+    2300220: kluson screw 34
+    2300222: kluson screw 35
+    2300224: kluson screw 36
+    2300226: kluson screw 37
+    2300228: kluson screw 38
+    2300230: kluson screw 39
+    2300232: kluson screw 4
+    2300234: kluson screw 40
+    2300236: kluson screw 41
+    2300238: kluson screw 42
+    2300240: kluson screw 43
+    2300242: kluson screw 44
+    2300244: kluson screw 45
+    2300246: kluson screw 46
+    2300248: kluson screw 47
+    2300250: kluson screw 48
+    2300252: kluson screw 49
+    2300254: kluson screw 5
+    2300256: kluson screw 6
+    2300258: kluson screw 7
+    2300260: kluson screw 8
+    2300262: kluson screw 9
+    2300264: kluson-left
+    2300266: kluson-middle
+    2300268: kluson-middle 1
+    2300270: kluson-middle 2
+    2300272: kluson-middle 3
+    2300274: kluson-right
+    2300276: knob#1
+    2300278: knob#1 1
+    2300280: knob#1 2
+    2300282: nut
+    2300284: Pat.Pend Saddle
+    2300286: Pat.Pend Saddle 1
+    2300288: Pat.Pend Saddle 2
+    2300290: Pat.Pend Saddle 3
+    2300292: Pat.Pend Saddle 4
+    2300294: Pat.Pend Saddle 5
+    2300296: Pickgurad
+    2300298: pickup
+    2300300: pickup 1
+    2300302: pickup 2
+    2300304: plug
+    2300306: spring
+    2300308: spring 1
+    2300310: spring 2
+    2300312: spring 3
+    2300314: spring 4
+    2300316: spring 5
+    2300318: strap lock
+    2300320: strap lock 1
+    2300322: string tree
+    2300324: Tone
+    2300326: Tone 1
+    2300328: tuner - top
+    2300330: tuner - top 1
+    2300332: tuner - top 2
+    2300334: tuner - top 3
+    2300336: tuner - top 4
+    2300338: tuner - top 5
+    2300340: Volume
+    3300000: 1957 Fender Stratocaster
+    3300002: 3 way tip
+    3300004: backplate
+    3300006: bridge plate
+    3300008: Crestwood#1
+    3300010: dot
+    3300012: dot 1
+    3300014: dot 10
+    3300016: dot 11
+    3300018: dot 12
+    3300020: dot 13
+    3300022: dot 14
+    3300024: dot 15
+    3300026: dot 16
+    3300028: dot 17
+    3300030: dot 18
+    3300032: dot 19
+    3300034: dot 2
+    3300036: dot 3
+    3300038: dot 4
+    3300040: dot 5
+    3300042: dot 6
+    3300044: dot 7
+    3300046: dot 8
+    3300048: dot 9
+    3300050: fretwire
+    3300052: fretwire 1
+    3300054: fretwire 10
+    3300056: fretwire 11
+    3300058: fretwire 12
+    3300060: fretwire 13
+    3300062: fretwire 14
+    3300064: fretwire 15
+    3300066: fretwire 16
+    3300068: fretwire 17
+    3300070: fretwire 18
+    3300072: fretwire 19
+    3300074: fretwire 2
+    3300076: fretwire 20
+    3300078: fretwire 3
+    3300080: fretwire 4
+    3300082: fretwire 5
+    3300084: fretwire 6
+    3300086: fretwire 7
+    3300088: fretwire 8
+    3300090: fretwire 9
+    3300092: Group 11
+    3300094: Group 271
+    3300096: Group 275
+    3300098: Group 279
+    3300100: Group 283
+    3300102: Group 287
+    3300104: Group 291
+    3300106: Group 295
+    3300108: Group 299
+    3300110: Group 3
+    3300112: Group 303
+    3300114: Group 307
+    3300116: Group 311
+    3300118: Group 315
+    3300120: Group 5
+    3300122: Group 7
+    3300124: Group 9
+    3300126: grub screw
+    3300128: grub screw 1
+    3300130: grub screw 10
+    3300132: grub screw 11
+    3300134: grub screw 12
+    3300136: grub screw 13
+    3300138: grub screw 14
+    3300140: grub screw 15
+    3300142: grub screw 16
+    3300144: grub screw 17
+    3300146: grub screw 2
+    3300148: grub screw 3
+    3300150: grub screw 4
+    3300152: grub screw 5
+    3300154: grub screw 6
+    3300156: grub screw 7
+    3300158: grub screw 8
+    3300160: grub screw 9
+    3300162: Jack
+    3300164: kluson screw
+    3300166: kluson screw 1
+    3300168: kluson screw 10
+    3300170: kluson screw 11
+    3300172: kluson screw 12
+    3300174: kluson screw 13
+    3300176: kluson screw 14
+    3300178: kluson screw 15
+    3300180: kluson screw 16
+    3300182: kluson screw 17
+    3300184: kluson screw 18
+    3300186: kluson screw 19
+    3300188: kluson screw 2
+    3300190: kluson screw 20
+    3300192: kluson screw 21
+    3300194: kluson screw 22
+    3300196: kluson screw 23
+    3300198: kluson screw 24
+    3300200: kluson screw 25
+    3300202: kluson screw 26
+    3300204: kluson screw 27
+    3300206: kluson screw 28
+    3300208: kluson screw 29
+    3300210: kluson screw 3
+    3300212: kluson screw 30
+    3300214: kluson screw 31
+    3300216: kluson screw 32
+    3300218: kluson screw 33
+    3300220: kluson screw 34
+    3300222: kluson screw 35
+    3300224: kluson screw 36
+    3300226: kluson screw 37
+    3300228: kluson screw 38
+    3300230: kluson screw 39
+    3300232: kluson screw 4
+    3300234: kluson screw 40
+    3300236: kluson screw 41
+    3300238: kluson screw 42
+    3300240: kluson screw 43
+    3300242: kluson screw 44
+    3300244: kluson screw 45
+    3300246: kluson screw 46
+    3300248: kluson screw 47
+    3300250: kluson screw 48
+    3300252: kluson screw 49
+    3300254: kluson screw 5
+    3300256: kluson screw 6
+    3300258: kluson screw 7
+    3300260: kluson screw 8
+    3300262: kluson screw 9
+    3300264: kluson-left
+    3300266: kluson-middle
+    3300268: kluson-middle 1
+    3300270: kluson-middle 2
+    3300272: kluson-middle 3
+    3300274: kluson-right
+    3300276: knob#1
+    3300278: knob#1 1
+    3300280: knob#1 2
+    3300282: nut
+    3300284: Pat.Pend Saddle
+    3300286: Pat.Pend Saddle 1
+    3300288: Pat.Pend Saddle 2
+    3300290: Pat.Pend Saddle 3
+    3300292: Pat.Pend Saddle 4
+    3300294: Pat.Pend Saddle 5
+    3300296: Pickgurad
+    3300298: pickup
+    3300300: pickup 1
+    3300302: pickup 2
+    3300304: plug
+    3300306: spring
+    3300308: spring 1
+    3300310: spring 2
+    3300312: spring 3
+    3300314: spring 4
+    3300316: spring 5
+    3300318: strap lock
+    3300320: strap lock 1
+    3300322: string tree
+    3300324: Tone
+    3300326: Tone 1
+    3300328: tuner - top
+    3300330: tuner - top 1
+    3300332: tuner - top 2
+    3300334: tuner - top 3
+    3300336: tuner - top 4
+    3300338: tuner - top 5
+    3300340: Volume
+    4300000: Mesh 1957 Fender Stratocaster
+    4300002: Mesh Group 3
+    4300004: Mesh Group 5
+    4300006: Mesh Group 7
+    4300008: Mesh Group 9
+    4300010: Mesh Group 11
+    4300012: Mesh kluson screw
+    4300014: Mesh Pat.Pend Saddle
+    4300016: Mesh grub screw
+    4300018: Mesh grub screw
+    4300020: Mesh spring
+    4300022: Mesh bridge plate
+    4300024: Mesh Pat.Pend Saddle
+    4300026: Mesh 3 way tip
+    4300028: Mesh Jack
+    4300030: Mesh backplate
+    4300032: Mesh kluson screw
+    4300034: Mesh knob#1
+    4300036: Mesh knob#1
+    4300038: Mesh pickup
+    4300040: Mesh strap lock
+    4300042: Mesh pickup
+    4300044: Mesh Pickgurad
+    4300046: Mesh fretwire
+    4300048: Mesh dot
+    4300050: Mesh nut
+    4300052: Mesh plug
+    4300054: Mesh tuner - top
+    4300056: Mesh Group 271
+    4300058: Mesh kluson-right
+    4300060: Mesh Group 295
+    4300062: Mesh kluson-middle
+    4300064: Mesh Group 299
+    4300066: Mesh kluson-left
+    4300068: Mesh Group 315
+    4300070: Mesh string tree
+    4300072: Mesh kluson screw
+    4300074: Mesh Crestwood#1
+    4300076: Mesh Volume
+    4300078: Mesh Tone
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
