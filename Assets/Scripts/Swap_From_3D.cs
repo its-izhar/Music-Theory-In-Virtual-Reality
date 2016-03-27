@@ -54,7 +54,7 @@ public class Swap_From_3D : MonoBehaviour, IPointerClickHandler
         void Update () {
 
         if(is3d == false)
-            Player.position = new Vector3(player.transform.position.x, 26.5f , player.transform.position.z);
+            Player.position = new Vector3(player.transform.position.x, 27f , player.transform.position.z);
 
 
     }
