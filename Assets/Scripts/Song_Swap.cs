@@ -7,6 +7,8 @@ public class Song_Swap : MonoBehaviour, IPointerClickHandler
 
     public AudioSource clip1_guitar, clip1_xguitar, clip1_bass, clip1_oh, clip1_snare, clip1_kick, clip1_vocal;
     public AudioSource clip2_guitar, clip2_xguitar, clip2_bass, clip2_oh, clip2_snare, clip2_kick, clip2_vocal;
+    public GameObject Song1, Song2;
+    Color temp1, temp2;
 
     public bool swap;  
     public AudioClip otherclip_guitar, otherclip_xguitar, otherclip_bass, otherclip_oh, otherclip_snare, otherclip_kick, otherclip_vocal;
@@ -14,6 +16,9 @@ public class Song_Swap : MonoBehaviour, IPointerClickHandler
     // Use this for initialization
     void Awake()
     {
+
+        temp1 = Song1.GetComponent<SpriteRenderer>().material.color;
+        temp2 = Song2.GetComponent<SpriteRenderer>().material.color;
 
         clip1_bass.clip = initialclip_bass;
         clip1_guitar.clip = initialclip_guitar;
@@ -43,6 +48,9 @@ public class Song_Swap : MonoBehaviour, IPointerClickHandler
         if (swap)
         {
             swap = false;
+            Song1.GetComponent<SpriteRenderer>().material.color = new Color(0.5f, 0.5f, 0.5f, 1.0f);
+            Song2.GetComponent<SpriteRenderer>().material.color = temp2;
+
             clip1_bass.Stop();
             clip1_guitar.Stop();
             clip1_xguitar.Stop();
@@ -61,6 +69,10 @@ public class Song_Swap : MonoBehaviour, IPointerClickHandler
         }
         else {
             swap = true;
+
+            Song2.GetComponent<SpriteRenderer>().material.color = new Color(0.5f, 0.5f, 0.5f, 1.0f);
+            Song1.GetComponent<SpriteRenderer>().material.color = temp1;
+
             clip2_bass.Stop();
             clip2_guitar.Stop();
             clip2_xguitar.Stop();
