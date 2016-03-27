@@ -53,9 +53,6 @@ public class Swap_From_3D : MonoBehaviour, IPointerClickHandler
         // Update is called once per frame
         void Update () {
 
-        if(is3d == false)
-            Player.position = new Vector3(player.transform.position.x, 25.63f , player.transform.position.z);
-
 
     }
 }

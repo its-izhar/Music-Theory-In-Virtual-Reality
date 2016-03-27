@@ -2,7 +2,7 @@
 using UnityEngine.EventSystems;
 using System.Collections;
 
-public class Song_Swap : MonoBehaviour, IPointerClickHandler
+public class Song_Swap2 : MonoBehaviour, IPointerClickHandler
 {
 
     public AudioSource clip1_guitar, clip1_xguitar, clip1_bass, clip1_oh, clip1_snare, clip1_kick, clip1_vocal;
@@ -10,9 +10,9 @@ public class Song_Swap : MonoBehaviour, IPointerClickHandler
     public GameObject Song1, Song2;
     Color temp1, temp2;
 
-    
+
  
-    public bool isplaying = false;
+    public bool isplaying= false;
 
     public AudioClip otherclip_guitar, otherclip_xguitar, otherclip_bass, otherclip_oh, otherclip_snare, otherclip_kick, otherclip_vocal;
     public AudioClip initialclip_guitar, initialclip_xguitar, initialclip_bass, initialclip_oh, initialclip_snare, initialclip_kick, initialclip_vocal;
@@ -48,55 +48,60 @@ public class Song_Swap : MonoBehaviour, IPointerClickHandler
 
         GameObject Temp;
         
-        
-       
-        if (GameObject.Find("Song 2 - Rick Astley").GetComponent<Song_Swap2>().isplaying == false && isplaying == false )   // Start Fucking Rick
+
+
+
+        if (GameObject.Find("Song 1 - Linkin Park ").GetComponent<Song_Swap>().isplaying == false && isplaying == false)   // Start Fucking Rick
         {
-            
-            Song2.GetComponent<SpriteRenderer>().material.color = new Color(0.5f, 0.5f, 0.5f, 1.0f);
-            Song1.GetComponent<SpriteRenderer>().material.color = temp1;
+
+            Song1.GetComponent<SpriteRenderer>().material.color = new Color(0.5f, 0.5f, 0.5f, 1.0f);
+            Song2.GetComponent<SpriteRenderer>().material.color = temp2;
             isplaying = true;
 
-            clip2_bass.Play();
-            clip2_guitar.Play();
-            clip2_xguitar.Play();
-            clip2_snare.Play();
-            clip2_vocal.Play();
-            clip2_oh.Play();
-            clip2_kick.Play();
+            clip1_bass.Play();
+            clip1_guitar.Play();
+            clip1_xguitar.Play();
+            clip1_snare.Play();
+            clip1_vocal.Play();
+            clip1_oh.Play();
+            clip1_kick.Play();
         }
-        // Swapping to Rick
 
-        else if (GameObject.Find("Song 2 - Rick Astley").GetComponent<Song_Swap2>().isplaying == true )
+
+        // Swapping to linkin
+
+        else if (GameObject.Find("Song 1 - Linkin Park ").GetComponent<Song_Swap>().isplaying == true)
         {
             isplaying = true;
-            GameObject.Find("Song 2 - Rick Astley").GetComponent<Song_Swap2>().isplaying = false;
-            
-            Song2.GetComponent<SpriteRenderer>().material.color = new Color(0.5f, 0.5f, 0.5f, 1.0f);
-            Song1.GetComponent<SpriteRenderer>().material.color = temp1;
-         
-            clip1_bass.Stop();
-            clip1_guitar.Stop();
-            clip1_xguitar.Stop();
-            clip1_snare.Stop();
-            clip1_vocal.Stop();
-            clip1_oh.Stop();
-            clip1_kick.Stop();
 
-            clip2_bass.Play();
-            clip2_guitar.Play();
-            clip2_xguitar.Play();
-            clip2_snare.Play();
-            clip2_vocal.Play();
-            clip2_oh.Play();
-            clip2_kick.Play();
+            GameObject.Find("Song 1 - Linkin Park ").GetComponent<Song_Swap>().isplaying = false;
+
+            Song1.GetComponent<SpriteRenderer>().material.color = new Color(0.5f, 0.5f, 0.5f, 1.0f);
+            Song2.GetComponent<SpriteRenderer>().material.color = temp2;
+
+            clip2_bass.Stop();
+            clip2_guitar.Stop();
+            clip2_xguitar.Stop();
+            clip2_snare.Stop();
+            clip2_vocal.Stop();
+            clip2_oh.Stop();
+            clip2_kick.Stop();
+    
+            clip1_bass.Play();
+            clip1_guitar.Play();
+            clip1_xguitar.Play();
+            clip1_snare.Play();
+            clip1_vocal.Play();
+            clip1_oh.Play();
+            clip1_kick.Play();
 
         }
 
 
     }
     // Update is called once per frame
-    void Update () {
-	
-	}
+    void Update()
+    {
+
+    }
 }
