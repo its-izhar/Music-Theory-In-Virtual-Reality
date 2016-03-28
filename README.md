@@ -1,5 +1,5 @@
 # VR-Project-3
-This is a class project of Virtual Reality (CIS6930) class at University of Project.
+This is a group project of Virtual Reality (CIS6930) class at University of Florida!
 
 The team consists of 3 graduate students:
 
