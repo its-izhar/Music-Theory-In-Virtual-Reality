@@ -18,8 +18,8 @@ public class clickscript : MonoBehaviour
         rick = GameObject.FindWithTag("Rick").GetComponent<Song_Swap2>();
 
         RaycastHit hit;
-        Ray ray = myCam.ScreenPointToRay(Input.mousePosition);
-        Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
+     //   Ray ray = myCam.ScreenPointToRay(Input.mousePosition);
+     //   Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
 
         if (Physics.Raycast(Cardboard.SDK.GetComponentInChildren<CardboardHead>().Gaze, out hit))
         {
