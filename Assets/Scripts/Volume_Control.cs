@@ -2,7 +2,7 @@
 using UnityEngine.EventSystems;
 using System.Collections;
 
-public class Volume_Control : MonoBehaviour, IPointerClickHandler
+public class Volume_Control : MonoBehaviour
 {
 
     
@@ -65,7 +65,7 @@ public class Volume_Control : MonoBehaviour, IPointerClickHandler
 
     }
 
-    public void OnPointerClick(PointerEventData eventData)
+    public void trigger()
     {
 
         if (source2.mute)

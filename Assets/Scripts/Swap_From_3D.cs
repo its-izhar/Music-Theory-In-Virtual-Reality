@@ -2,7 +2,7 @@
 using UnityEngine.EventSystems;
 using System.Collections;
 
-public class Swap_From_3D : MonoBehaviour, IPointerClickHandler
+public class Swap_From_3D : MonoBehaviour
 {
     private GameObject[] songs;
     private GameObject[] zones;
@@ -18,7 +18,7 @@ public class Swap_From_3D : MonoBehaviour, IPointerClickHandler
         zones = GameObject.FindGameObjectsWithTag("Zones");
 
     }
-    public void OnPointerClick(PointerEventData eventData)
+    public void trigger()
     {
         
 
