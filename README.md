@@ -1,9 +1,7 @@
 # A Virtual Reality Experience Regarding Music & Acoustics!
-Checkout the website for details: http://its-izhar.github.io/Music-Theory-In-Virtual-Reality/
+Checkout the website for details: http://its-izhar.github.io/Music-Theory-In-Virtual-Reality/  
 
-This is a group project of Virtual Reality (CIS6930) class at University of Florida!
-
-The team consists of 3 graduate students:
+This immersive VR experience can be deployed to Google Cardboard and/or Oculus Rift. It has been developed using Unity3D Gaming Engine. This project was developed as a class project for the Virtual Reality (CIS6930) class at University of Florida. The team consists of 3 graduate students:  
 
 1. Izhar Shaikh (https://github.com/its-izhar)
 
