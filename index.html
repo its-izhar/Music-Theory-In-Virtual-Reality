@@ -74,8 +74,29 @@ In a concert hall, the sound one hears consists of 1) directly radiated sound an
 <li>Most of our research was spent in understanding how the acoustics of a concert hall work, and how to create as close as possible digital representation in the short time span we had for this project.</li>
 <li>The reverb zones are placed strategically to emulate a real concert. When standing in front of the musicians the music sounds unpleasant due to the fact that sound waves travel longer before converging and the reflection causes a muddled sound in the convergence area.  The best spots to be at in a concert as seen in the video accurately reflects how sound waves travel and reflect off walls to produce the music that an artist would like you listen to. This was done with the help of Reverb Zones and 3D audio controlled by a custom curve.</li>
 <li>The scripts use RayCasting to determine which object was selected and a function to toggle between the songs and the specific instruments are called.
-For turning off the concert hall we simply used a tag zones, and set the concert hall, reverb zones to that tag and setActive to false when the user wanted to disable the concert hall.</li>
+For turning off the concert hall we simply used a tag zones, and set the concert hall, reverb zones to that tag and setActive to false when the user wanted to disable the concert hall.<br>
+</li>
 </ul>
+
+<h1>
+<a id="how-the-experience-leveraged-concepts-found-in-the-vr-book-sections-chapter-19" class="anchor" href="#how-the-experience-leveraged-concepts-found-in-the-vr-book-sections-chapter-19" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How the experience leveraged concepts found in the VR Book sections Chapter 19?</h1>
+
+<p><strong>Hardware:</strong> For hardware to be least significant factor adding to the Simulator Sickness, we  made sure the HMD is free of flickers, used a light weighted phone (LG G2) with a Plastic Google Cardboard with Good lenses. In addition, we used lightweight OTG cable with PS3 controller for navigation to nullify counterbalance and finally we used a bluetooth-paired audio headset.  </p>
+
+<p><strong>System Calibration:</strong> Since the HMD and Joystick were tightly attached, Pupillary Distance (PD) was proper.  </p>
+
+<p><strong>Latency reduction:</strong> Scripts are written in a manner that would reduce the end-to-end delays as much as possible. We repeatedly tested the system for FPS lags, so dropped frames and increased latency won't occur.  </p>
+
+<p><strong>General Design:</strong> Deleted directional light to reduce shadows as much as possible, this added an average of 40 FPS increase! we wanted to make sure the system ran with as few FPS lags as possible considering we had a many large sound files. We implemented this is by having a minimum amount of graphical models as possible to where the user can still understand the scene and have low FPS!  </p>
+
+<p><strong>Interaction design:</strong> We used PS3 controller with OTG cable, allowed user to select what instruments are on and off as well as to enable/disable the concert hall.  </p>
+
+<p><strong>Usage:</strong> Safety: Enough room for user to move and be comfortable.
+       Hygeine: Wiped all instruments with Lysol wipes.
+       New users: Encouranged them to proceed with slow head motions.
+       Sickness: Mdde sure the user is not sick and we respect their decision if they want to stop the experiment or not try it all.
+       Adaption/Re-adaption: If the user felt sick, we advised them not to drive car for next 30 minutes.
+       Measuring Sickness: Used the post exposure simulator sickness questionnaire. </p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/its-izhar/Music-Theory-In-Virtual-Reality">Music-Theory-In-Virtual-Reality</a> is maintained by <a href="https://github.com/its-izhar">its-izhar</a>.</span>
