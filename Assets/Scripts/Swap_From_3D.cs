@@ -2,23 +2,24 @@
 using UnityEngine.EventSystems;
 using System.Collections;
 
-public class Swap_From_3D : MonoBehaviour, IPointerClickHandler
+public class Swap_From_3D : MonoBehaviour
 {
     private GameObject[] songs;
     private GameObject[] zones;
+	public GameObject Plane;
     public bool is3d = true;
 
-    public GameObject player;
-    public Transform Player;
+    //public GameObject player;
+    //public Transform Player;
     
 	// Use this for initialization
 	void Start () {
 
-        Player = player.GetComponent<Transform>();
+        //Player = player.GetComponent<Transform>();
         zones = GameObject.FindGameObjectsWithTag("Zones");
 
     }
-    public void OnPointerClick(PointerEventData eventData)
+    public void trigger()
     {
         
 
@@ -28,10 +29,9 @@ public class Swap_From_3D : MonoBehaviour, IPointerClickHandler
         {
           //  foreach (GameObject song in songs) 
                // song.GetComponent<AudioSource>().spatialBlend = 0.0f;
-             
+			Plane.SetActive(true); 
             foreach(GameObject zone in zones)
                 zone.SetActive(false);
-
             is3d = false;
 
 
@@ -43,9 +43,8 @@ public class Swap_From_3D : MonoBehaviour, IPointerClickHandler
          
             foreach (GameObject zone in zones)
                 zone.SetActive(true);
-
             is3d = true;
-
+			Plane.SetActive(false);
 
         }
     }

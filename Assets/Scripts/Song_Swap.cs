@@ -1,8 +1,8 @@
-﻿using UnityEngine;
+﻿using UnityEngine; 
 using UnityEngine.EventSystems;
 using System.Collections;
 
-public class Song_Swap : MonoBehaviour, IPointerClickHandler
+public class Song_Swap : MonoBehaviour
 {
 
     public AudioSource clip1_guitar, clip1_xguitar, clip1_bass, clip1_oh, clip1_snare, clip1_kick, clip1_vocal;
@@ -43,7 +43,7 @@ public class Song_Swap : MonoBehaviour, IPointerClickHandler
 
     }
 
-    public void OnPointerClick(PointerEventData eventData)
+    public void trigger()
     {
 
         GameObject Temp;
@@ -97,6 +97,6 @@ public class Song_Swap : MonoBehaviour, IPointerClickHandler
     }
     // Update is called once per frame
     void Update () {
-	
-	}
+        
+    }
 }
