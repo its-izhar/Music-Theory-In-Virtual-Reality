@@ -1,4 +1,5 @@
-# VR-Project-3
+# A Virtual Reality Experience Regarding Music & Acoustics!
+Checkout the website for details: http://its-izhar.github.io/Music-Theory-In-Virtual-Reality/
 This is a group project of Virtual Reality (CIS6930) class at University of Florida!
 
 The team consists of 3 graduate students:
